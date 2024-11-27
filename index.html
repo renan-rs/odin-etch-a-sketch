@@ -7,9 +7,32 @@
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
-    <button id="btn-set-size">Set size</button>
-    <h1>Grid Size: 16x16</h1>
-    <h5>Hold Ctrl to draw, hold Shift to erase, press C to clear grid</h3>
+    <div class="header">
+        <div class="header-left">
+            <div id="grid-control">
+                <h1>16x16</h1>
+                <button id="btn-set-size">Set grid</button>
+            </div>
+            <div id="container-control">
+                <label for="board-size">Board size</label>
+                <select name="board-size" id="board-size">
+                    <option value="360">360px</option>
+                    <option value="580" selected>580px</option>
+                    <option value="960">960px</option>
+                </select>
+            </div>
+            <div id="color-control">
+                <label for="colored">Colored</label>
+                <input type="checkbox" name="colored" id="colored" value="Colored">
+            </div>
+        </div>
+        <div class="header-right">
+            <p>Hold <span>Ctrl</span> to draw</p>
+            <p>Hold <span>Shift</span> to erase</p>
+            <p>Press <span>C</span> to clear</p>
+        </div>
+    </div>
+    <p>You can change the board size and grid size at any time. :)</p>
     <div id="container">
         
     </div>
