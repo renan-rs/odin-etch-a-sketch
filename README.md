@@ -2,6 +2,11 @@
 
 ## Project: Etch-a-Sketch
 
+### PREVIEW
+[https://renan-rs.github.io/odin-etch-a-sketch/](https://renan-rs.github.io/odin-etch-a-sketch/)
+
+---
+
 1. Follow our instructions on [setting up your project’s GitHub repository](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/recipes#setting-up-your-projects-github-repository).
 2. Create a webpage with a 16x16 grid of square divs.
    - Create the divs using JavaScript. Don’t try to create them by hand by copying and pasting them in your HTML file!
